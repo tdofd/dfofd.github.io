@@ -118,6 +118,47 @@
                 </li>
                 
                 
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-tags"></i>标签
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/匿影/">匿影</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/浮梦/">浮梦</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/独心/">独心</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/随笔/">随笔</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                <li class>
+                    <a href="/about">
+                        <i class="fa fa-user"></i>关于我
+                    </a>
+                </li>
+                
+                
             </ul>
         </div>
     </div>
@@ -187,6 +228,15 @@
     </div>
 </article>
 
+
+<div id="comments-template"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script>
+	if(!window.commentConfig) {
+      window.commentConfig = {}
+      window.commentConfig.title = '独心·自言'
+    }
+</script>
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
@@ -306,19 +356,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/05/08/匿影·归来寂/">匿影·归来寂</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
                     <a href="/2019/05/08/匿影·行远/">匿影·行远</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/05/08/惊魂曲/">惊魂曲</a>
+                    <a href="/2019/05/08/惊魂曲（其二）/">惊魂曲（其二）</a>
                 </span>
             </li>
             
@@ -330,19 +374,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/05/08/浮梦·花道/">浮梦·花道</a>
+                    <a href="/2019/05/08/浮梦·思浮生/">浮梦·思浮生</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/05/08/独心·天空之城/">独心·天空之城</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2019/05/08/独心·寻玫/">独心·寻玫</a>
+                    <a href="/2019/05/08/浮梦·花语思/">浮梦·花语思</a>
                 </span>
             </li>
             
@@ -354,7 +392,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/05/08/独心·惘断颖/">独心·惘断颖</a>
+                    <a href="/2019/05/08/独心·此情/">独心·此情</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2019/05/08/随笔·有感/">随笔·有感</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2019/05/08/随笔·话己/">随笔·话己</a>
                 </span>
             </li>
             
@@ -385,13 +435,13 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/匿影/" style="font-size: 8.691798737205328px;" class="tag-cloud-link">匿影</a>
+    <a href="/tags/匿影/" style="font-size: 14.490955117389785px;" class="tag-cloud-link">匿影</a>
     
-    <a href="/tags/浮梦/" style="font-size: 14.584260813957176px;" class="tag-cloud-link">浮梦</a>
+    <a href="/tags/浮梦/" style="font-size: 14.628124579632708px;" class="tag-cloud-link">浮梦</a>
     
-    <a href="/tags/独心/" style="font-size: 17.71303929970345px;" class="tag-cloud-link">独心</a>
+    <a href="/tags/独心/" style="font-size: 13.131435508143891px;" class="tag-cloud-link">独心</a>
     
-    <a href="/tags/随笔/" style="font-size: 16.16224966695193px;" class="tag-cloud-link">随笔</a>
+    <a href="/tags/随笔/" style="font-size: 19.17872450406647px;" class="tag-cloud-link">随笔</a>
     
 </div>
                 
@@ -469,5 +519,27 @@
 <script src="/js/oni.js"></script>
 
 
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = 'Wed May 08 2019 15:56:47 GMT+0800'
+      window.commentConfig.owner = 'tdofd'
+      window.commentConfig.repo = 'https://github.com/tdofd/tdofd.github.io.git'
+      window.commentConfig.client_id = '37f657b510fa4b7c43bd'
+      window.commentConfig.client_secret = 'ec6892e4d6b76022e617d42558adaec28d557895'
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: 'Wed May 08 2019 15:56:47 GMT+0800',
+        owner: 'tdofd',
+        repo: 'https://github.com/tdofd/tdofd.github.io.git',
+        client_id: '37f657b510fa4b7c43bd',
+        client_secret: 'ec6892e4d6b76022e617d42558adaec28d557895',
+        redirect_uri: ''
+      }
+    }
+</script>
+<script src="/js/comment/gitment.js"></script>
 
 </html>
